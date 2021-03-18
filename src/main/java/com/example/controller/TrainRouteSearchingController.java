@@ -41,7 +41,7 @@ public class TrainRouteSearchingController {
 	public String addUsers(@RequestBody Roles roles) {
 		if(!rolesService.getRoles().contains(roles)) {
 			rolesService.addRoles(roles);
-			return "successfully registered";
+			return "successfully registered *****";
 		}
 		return "User alreay existed";
 	}
