@@ -43,7 +43,7 @@ public class TrainRouteSearchingController {
 			rolesService.addRoles(roles);
 			return "successfully registered";
 		}
-		return "User alreay existed";
+		return "User alreay existed in IRCTC app";
 	}
 	@PostMapping("/login")
 	public String login(String emailId,String password) {
